@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE members-details[
+	<!ELEMENT members-details (member*)>
+	<!ELEMENT member (members-name,number,member-address,gender,date-of-birth,religion,date-joined,section,contact-phone-number,badges)>
+	<!ELEMENT members-name (#PCDATA)>
+	<!ELEMENT number (#PCDATA)>
+	<!ELEMENT member-address (line1,line2,town,postcode)>
+	<!ELEMENT line1 (#PCDATA)>
+	<!ELEMENT line2 (#PCDATA)>
+	<!ELEMENT town (#PCDATA)>
+	<!ELEMENT postcode (#PCDATA)>
+	<!ELEMENT gender (#PCDATA)>
+	<!ELEMENT date-of-birth (#PCDATA)>
+	<!ELEMENT religion (#PCDATA)>
+	<!ELEMENT date-joined (#PCDATA)>
+	<!ELEMENT section (#PCDATA)>
+	<!ELEMENT contact-phone-number (moblie,phone,work)>
+	<!ELEMENT mobile (#PCDATA)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT work (#PCDATA)>
+	<!ELEMENT badges (badge)>
+	<!ELEMENT badge (#PCDATA)>
+	<!ATTLIST badge type CDATA #REQUIRED>
+]>
+<members-details>
+	<member>
+		<members-name>Fred Moonstone</members-name>
+		<number>a1</number>
+		<member-address>
+			<line1>12 Watling Street</line1>
+			<line2> </line2>
+			<town>Belshill</town>
+			<postcode>ML 2ABC</postcode>
+		</member-address>
+		<gender> M </gender>
+		<date-of-birth>1/1/1998</date-of-birth>
+		<religion>Christian</religion>
+		<date-joined>12/6/2005</date-joined>
+		<section>Scout</section>
+		<contact-phone-number>
+			<mobile>0780 123456</mobile>
+			<phone>01698 123456</phone>
+			<work> </work>
+		</contact-phone-number>
+		<bages>
+			<badge type="progress">Promise Challenge</badge>
+			<badge type="progress">Outdoor Challenge</badge>
+			<badge type="activity">Emergency Aid</badge>
+		</bages>
+	</member>
+
+	<member>
+		<members-name>Wilma Moonstone</members-name>
+		<number>a2</number>
+		<member-address>
+			<line1>12 Watling Street</line1>
+			<line2> </line2>
+			<town>Belshill</town>
+			<postcode>ML 2ABC</postcode>
+		</member-address>
+		<gender> F </gender>
+		<date-of-birth>1/1/1999</date-of-birth>
+		<religion>Christian</religion>
+		<date-joined>12/6/2006</date-joined>
+		<section>Cub Scout</section>
+		<contact-phone-number>
+			<mobile>0780 123456</mobile>
+			<phone>01698 123456</phone>
+			<work> </work>
+		</contact-phone-number>
+		<bages>
+			<badge type="progress">Promise Challenge</badge>
+			<badge type="activity">Emergency Aid</badge>
+			<badge type="activity">Information Technology</badge>
+		</bages>
+	</member>
+
+	<member>
+		<members-name>Barney Debris</members-name>
+		<number>a3</number>
+		<member-address>
+			<line1>1 Birmingham Place</line1>
+			<line2>The Quarry</line2>
+			<town>Birmingham</town>
+			<postcode>BB2 123</postcode>
+		</member-address>
+		<gender> M </gender>
+		<date-of-birth>1/1/2002</date-of-birth>
+		<religion>Muslim</religion>
+		<date-joined>12/6/2009</date-joined>
+		<section></section>
+		<contact-phone-number>
+			<mobile>0780 123456</mobile>
+			<phone>01698 123456</phone>
+			<work>01234 567899</work>
+		</contact-phone-number>
+		<bages>
+			<badge type="progress">Promise Challenge</badge>
+		</bages>
+	</member>
+
+		
+</members-details>
